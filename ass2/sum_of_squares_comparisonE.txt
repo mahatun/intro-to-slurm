@@ -1,0 +1,112 @@
+/home/maha.hanif/.local/lib/python3.8/site-packages/numba/cuda/cudadrv/nvvm.py:366: UserWarning: CUDA Toolkit 11.1 is unsupported by Numba - 11.2 is the minimum required version.
+  warnings.warn(unsupported_ver)
+/home/maha.hanif/.local/lib/python3.8/site-packages/numba/cuda/cudadrv/nvvm.py:366: UserWarning: CUDA Toolkit 11.1 is unsupported by Numba - 11.2 is the minimum required version.
+  warnings.warn(unsupported_ver)
+Traceback (most recent call last):
+  File "cuda.py", line 27, in <module>
+    sum_of_square_root_gpu[blocks_per_grid, threads_per_block](local_start, local_end, result)
+  File "/home/maha.hanif/.local/lib/python3.8/site-packages/numba/cuda/dispatcher.py", line 539, in __call__
+    return self.dispatcher.call(args, self.griddim, self.blockdim,
+  File "/home/maha.hanif/.local/lib/python3.8/site-packages/numba/cuda/dispatcher.py", line 673, in call
+    kernel = _dispatcher.Dispatcher._cuda_call(self, *args)
+  File "/home/maha.hanif/.local/lib/python3.8/site-packages/numba/cuda/dispatcher.py", line 681, in _compile_for_args
+    return self.compile(tuple(argtypes))
+  File "/home/maha.hanif/.local/lib/python3.8/site-packages/numba/cuda/dispatcher.py", line 924, in compile
+    kernel = _Kernel(self.py_func, argtypes, **self.targetoptions)
+  File "/home/maha.hanif/.local/lib/python3.8/site-packages/numba/core/compiler_lock.py", line 35, in _acquire_compile_lock
+    return func(*args, **kwargs)
+  File "/home/maha.hanif/.local/lib/python3.8/site-packages/numba/cuda/dispatcher.py", line 103, in __init__
+    self.cooperative = 'cudaCGGetIntrinsicHandle' in lib.get_asm_str()
+  File "/home/maha.hanif/.local/lib/python3.8/site-packages/numba/cuda/codegen.py", line 119, in get_asm_str
+    return self._join_ptxes(self._get_ptxes(cc=cc))
+  File "/home/maha.hanif/.local/lib/python3.8/site-packages/numba/cuda/codegen.py", line 131, in _get_ptxes
+    arch = nvvm.get_arch_option(*cc)
+  File "/home/maha.hanif/.local/lib/python3.8/site-packages/numba/cuda/cudadrv/nvvm.py", line 413, in get_arch_option
+    arch = find_closest_arch((major, minor))
+  File "/home/maha.hanif/.local/lib/python3.8/site-packages/numba/cuda/cudadrv/nvvm.py", line 386, in find_closest_arch
+    raise NvvmSupportError(msg)
+numba.cuda.cudadrv.error.NvvmSupportError: No supported GPU compute capabilities found. Please check your cudatoolkit version matches your CUDA version.
+/home/maha.hanif/.local/lib/python3.8/site-packages/numba/cuda/cudadrv/nvvm.py:366: UserWarning: CUDA Toolkit 11.1 is unsupported by Numba - 11.2 is the minimum required version.
+  warnings.warn(unsupported_ver)
+/home/maha.hanif/.local/lib/python3.8/site-packages/numba/cuda/cudadrv/nvvm.py:366: UserWarning: CUDA Toolkit 11.1 is unsupported by Numba - 11.2 is the minimum required version.
+  warnings.warn(unsupported_ver)
+Traceback (most recent call last):
+  File "cuda.py", line 27, in <module>
+    sum_of_square_root_gpu[blocks_per_grid, threads_per_block](local_start, local_end, result)
+  File "/home/maha.hanif/.local/lib/python3.8/site-packages/numba/cuda/dispatcher.py", line 539, in __call__
+    return self.dispatcher.call(args, self.griddim, self.blockdim,
+  File "/home/maha.hanif/.local/lib/python3.8/site-packages/numba/cuda/dispatcher.py", line 673, in call
+    kernel = _dispatcher.Dispatcher._cuda_call(self, *args)
+  File "/home/maha.hanif/.local/lib/python3.8/site-packages/numba/cuda/dispatcher.py", line 681, in _compile_for_args
+    return self.compile(tuple(argtypes))
+  File "/home/maha.hanif/.local/lib/python3.8/site-packages/numba/cuda/dispatcher.py", line 924, in compile
+    kernel = _Kernel(self.py_func, argtypes, **self.targetoptions)
+  File "/home/maha.hanif/.local/lib/python3.8/site-packages/numba/core/compiler_lock.py", line 35, in _acquire_compile_lock
+    return func(*args, **kwargs)
+  File "/home/maha.hanif/.local/lib/python3.8/site-packages/numba/cuda/dispatcher.py", line 103, in __init__
+    self.cooperative = 'cudaCGGetIntrinsicHandle' in lib.get_asm_str()
+  File "/home/maha.hanif/.local/lib/python3.8/site-packages/numba/cuda/codegen.py", line 119, in get_asm_str
+    return self._join_ptxes(self._get_ptxes(cc=cc))
+  File "/home/maha.hanif/.local/lib/python3.8/site-packages/numba/cuda/codegen.py", line 131, in _get_ptxes
+    arch = nvvm.get_arch_option(*cc)
+  File "/home/maha.hanif/.local/lib/python3.8/site-packages/numba/cuda/cudadrv/nvvm.py", line 413, in get_arch_option
+    arch = find_closest_arch((major, minor))
+  File "/home/maha.hanif/.local/lib/python3.8/site-packages/numba/cuda/cudadrv/nvvm.py", line 386, in find_closest_arch
+    raise NvvmSupportError(msg)
+numba.cuda.cudadrv.error.NvvmSupportError: No supported GPU compute capabilities found. Please check your cudatoolkit version matches your CUDA version.
+/home/maha.hanif/.local/lib/python3.8/site-packages/numba/cuda/cudadrv/nvvm.py:366: UserWarning: CUDA Toolkit 11.1 is unsupported by Numba - 11.2 is the minimum required version.
+  warnings.warn(unsupported_ver)
+/home/maha.hanif/.local/lib/python3.8/site-packages/numba/cuda/cudadrv/nvvm.py:366: UserWarning: CUDA Toolkit 11.1 is unsupported by Numba - 11.2 is the minimum required version.
+  warnings.warn(unsupported_ver)
+Traceback (most recent call last):
+  File "cuda.py", line 27, in <module>
+    sum_of_square_root_gpu[blocks_per_grid, threads_per_block](local_start, local_end, result)
+  File "/home/maha.hanif/.local/lib/python3.8/site-packages/numba/cuda/dispatcher.py", line 539, in __call__
+    return self.dispatcher.call(args, self.griddim, self.blockdim,
+  File "/home/maha.hanif/.local/lib/python3.8/site-packages/numba/cuda/dispatcher.py", line 673, in call
+    kernel = _dispatcher.Dispatcher._cuda_call(self, *args)
+  File "/home/maha.hanif/.local/lib/python3.8/site-packages/numba/cuda/dispatcher.py", line 681, in _compile_for_args
+    return self.compile(tuple(argtypes))
+  File "/home/maha.hanif/.local/lib/python3.8/site-packages/numba/cuda/dispatcher.py", line 924, in compile
+    kernel = _Kernel(self.py_func, argtypes, **self.targetoptions)
+  File "/home/maha.hanif/.local/lib/python3.8/site-packages/numba/core/compiler_lock.py", line 35, in _acquire_compile_lock
+    return func(*args, **kwargs)
+  File "/home/maha.hanif/.local/lib/python3.8/site-packages/numba/cuda/dispatcher.py", line 103, in __init__
+    self.cooperative = 'cudaCGGetIntrinsicHandle' in lib.get_asm_str()
+  File "/home/maha.hanif/.local/lib/python3.8/site-packages/numba/cuda/codegen.py", line 119, in get_asm_str
+    return self._join_ptxes(self._get_ptxes(cc=cc))
+  File "/home/maha.hanif/.local/lib/python3.8/site-packages/numba/cuda/codegen.py", line 131, in _get_ptxes
+    arch = nvvm.get_arch_option(*cc)
+  File "/home/maha.hanif/.local/lib/python3.8/site-packages/numba/cuda/cudadrv/nvvm.py", line 413, in get_arch_option
+    arch = find_closest_arch((major, minor))
+  File "/home/maha.hanif/.local/lib/python3.8/site-packages/numba/cuda/cudadrv/nvvm.py", line 386, in find_closest_arch
+    raise NvvmSupportError(msg)
+numba.cuda.cudadrv.error.NvvmSupportError: No supported GPU compute capabilities found. Please check your cudatoolkit version matches your CUDA version.
+/home/maha.hanif/.local/lib/python3.8/site-packages/numba/cuda/cudadrv/nvvm.py:366: UserWarning: CUDA Toolkit 11.1 is unsupported by Numba - 11.2 is the minimum required version.
+  warnings.warn(unsupported_ver)
+/home/maha.hanif/.local/lib/python3.8/site-packages/numba/cuda/cudadrv/nvvm.py:366: UserWarning: CUDA Toolkit 11.1 is unsupported by Numba - 11.2 is the minimum required version.
+  warnings.warn(unsupported_ver)
+Traceback (most recent call last):
+  File "cuda.py", line 27, in <module>
+    sum_of_square_root_gpu[blocks_per_grid, threads_per_block](local_start, local_end, result)
+  File "/home/maha.hanif/.local/lib/python3.8/site-packages/numba/cuda/dispatcher.py", line 539, in __call__
+    return self.dispatcher.call(args, self.griddim, self.blockdim,
+  File "/home/maha.hanif/.local/lib/python3.8/site-packages/numba/cuda/dispatcher.py", line 673, in call
+    kernel = _dispatcher.Dispatcher._cuda_call(self, *args)
+  File "/home/maha.hanif/.local/lib/python3.8/site-packages/numba/cuda/dispatcher.py", line 681, in _compile_for_args
+    return self.compile(tuple(argtypes))
+  File "/home/maha.hanif/.local/lib/python3.8/site-packages/numba/cuda/dispatcher.py", line 924, in compile
+    kernel = _Kernel(self.py_func, argtypes, **self.targetoptions)
+  File "/home/maha.hanif/.local/lib/python3.8/site-packages/numba/core/compiler_lock.py", line 35, in _acquire_compile_lock
+    return func(*args, **kwargs)
+  File "/home/maha.hanif/.local/lib/python3.8/site-packages/numba/cuda/dispatcher.py", line 103, in __init__
+    self.cooperative = 'cudaCGGetIntrinsicHandle' in lib.get_asm_str()
+  File "/home/maha.hanif/.local/lib/python3.8/site-packages/numba/cuda/codegen.py", line 119, in get_asm_str
+    return self._join_ptxes(self._get_ptxes(cc=cc))
+  File "/home/maha.hanif/.local/lib/python3.8/site-packages/numba/cuda/codegen.py", line 131, in _get_ptxes
+    arch = nvvm.get_arch_option(*cc)
+  File "/home/maha.hanif/.local/lib/python3.8/site-packages/numba/cuda/cudadrv/nvvm.py", line 413, in get_arch_option
+    arch = find_closest_arch((major, minor))
+  File "/home/maha.hanif/.local/lib/python3.8/site-packages/numba/cuda/cudadrv/nvvm.py", line 386, in find_closest_arch
+    raise NvvmSupportError(msg)
+numba.cuda.cudadrv.error.NvvmSupportError: No supported GPU compute capabilities found. Please check your cudatoolkit version matches your CUDA version.

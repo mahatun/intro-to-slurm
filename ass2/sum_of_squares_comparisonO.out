@@ -1,0 +1,8 @@
+Running Numba version for CPU with N=10000
+Running Numba version for CPU with N=50000
+Running Numba version for CPU with N=100000
+Running Numba version for CPU with N=500000
+Running CUDA version for GPU with N=10000
+Running CUDA version for GPU with N=50000
+Running CUDA version for GPU with N=100000
+Running CUDA version for GPU with N=500000

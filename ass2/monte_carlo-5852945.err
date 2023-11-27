@@ -1,0 +1,18 @@
+WARNING: GCC/9.3.0 cannot be loaded due to a conflict.
+HINT: Might try "module unload gcc" first.
+/cm/local/apps/slurm/var/spool/job5852945/slurm_script: line 24: mpirun: command not found
+/cm/local/apps/slurm/var/spool/job5852945/slurm_script: line 24: mpirun: command not found
+/cm/local/apps/slurm/var/spool/job5852945/slurm_script: line 24: mpirun: command not found
+/cm/local/apps/slurm/var/spool/job5852945/slurm_script: line 24: mpirun: command not found
+/cm/local/apps/slurm/var/spool/job5852945/slurm_script: line 24: mpirun: command not found
+/cm/local/apps/slurm/var/spool/job5852945/slurm_script: line 24: mpirun: command not found
+/cm/local/apps/slurm/var/spool/job5852945/slurm_script: line 24: mpirun: command not found
+/cm/local/apps/slurm/var/spool/job5852945/slurm_script: line 24: mpirun: command not found
+/cm/local/apps/slurm/var/spool/job5852945/slurm_script: line 24: mpirun: command not found
+/cm/local/apps/slurm/var/spool/job5852945/slurm_script: line 24: mpirun: command not found
+/cm/local/apps/slurm/var/spool/job5852945/slurm_script: line 24: mpirun: command not found
+/cm/local/apps/slurm/var/spool/job5852945/slurm_script: line 24: mpirun: command not found
+/cm/local/apps/slurm/var/spool/job5852945/slurm_script: line 24: mpirun: command not found
+/cm/local/apps/slurm/var/spool/job5852945/slurm_script: line 24: mpirun: command not found
+/cm/local/apps/slurm/var/spool/job5852945/slurm_script: line 24: mpirun: command not found
+/cm/local/apps/slurm/var/spool/job5852945/slurm_script: line 24: mpirun: command not found

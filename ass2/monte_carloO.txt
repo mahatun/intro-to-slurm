@@ -1,0 +1,24 @@
+Running with total_points=1000 and cores=1
+With 1000 samples, the cpu time using 1 core(s) is:  0.001798826
+Approximation de Pi: 3.18
+Running with total_points=1000 and cores=2
+Running with total_points=1000 and cores=4
+Running with total_points=1000 and cores=8
+Running with total_points=10000 and cores=1
+With 10000 samples, the cpu time using 1 core(s) is:  0.014469695
+Approximation de Pi: 3.1392
+Running with total_points=10000 and cores=2
+Running with total_points=10000 and cores=4
+Running with total_points=10000 and cores=8
+Running with total_points=100000 and cores=1
+With 100000 samples, the cpu time using 1 core(s) is:  0.12937419
+Approximation de Pi: 3.14028
+Running with total_points=100000 and cores=2
+Running with total_points=100000 and cores=4
+Running with total_points=100000 and cores=8
+Running with total_points=1000000 and cores=1
+With 1000000 samples, the cpu time using 1 core(s) is:  1.273682202
+Approximation de Pi: 3.140244
+Running with total_points=1000000 and cores=2
+Running with total_points=1000000 and cores=4
+Running with total_points=1000000 and cores=8

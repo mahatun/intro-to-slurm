@@ -1,0 +1,16 @@
+Running with total_points=1000 and cores=1
+Running with total_points=1000 and cores=2
+Running with total_points=1000 and cores=4
+Running with total_points=1000 and cores=8
+Running with total_points=10000 and cores=1
+Running with total_points=10000 and cores=2
+Running with total_points=10000 and cores=4
+Running with total_points=10000 and cores=8
+Running with total_points=100000 and cores=1
+Running with total_points=100000 and cores=2
+Running with total_points=100000 and cores=4
+Running with total_points=100000 and cores=8
+Running with total_points=1000000 and cores=1
+Running with total_points=1000000 and cores=2
+Running with total_points=1000000 and cores=4
+Running with total_points=1000000 and cores=8

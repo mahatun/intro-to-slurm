@@ -1,0 +1,76 @@
+    ERROR: Command errored out with exit status 1:
+     command: /home/maha.hanif/ass2/myenv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-2tkp288p/numba/setup.py'"'"'; __file__='"'"'/tmp/pip-install-2tkp288p/numba/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-2tkp288p/numba/
+    Complete output (68 lines):
+    Traceback (most recent call last):
+      File "/home/maha.hanif/ass2/myenv/lib/python3.8/site-packages/setuptools/sandbox.py", line 154, in save_modules
+        yield saved
+      File "/home/maha.hanif/ass2/myenv/lib/python3.8/site-packages/setuptools/sandbox.py", line 195, in setup_context
+        yield
+      File "/home/maha.hanif/ass2/myenv/lib/python3.8/site-packages/setuptools/sandbox.py", line 250, in run_setup
+        _execfile(setup_script, ns)
+      File "/home/maha.hanif/ass2/myenv/lib/python3.8/site-packages/setuptools/sandbox.py", line 45, in _execfile
+        exec(code, globals, locals)
+      File "/tmp/easy_install-ajgzbm2f/numpy-1.26.2/setup.py", line 22, in <module>
+        min_python_version = "3.8"
+    RuntimeError: Python version >= 3.9 required.
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-2tkp288p/numba/setup.py", line 426, in <module>
+        setup(**metadata)
+      File "/home/maha.hanif/ass2/myenv/lib/python3.8/site-packages/setuptools/__init__.py", line 144, in setup
+        _install_setup_requires(attrs)
+      File "/home/maha.hanif/ass2/myenv/lib/python3.8/site-packages/setuptools/__init__.py", line 139, in _install_setup_requires
+        dist.fetch_build_eggs(dist.setup_requires)
+      File "/home/maha.hanif/ass2/myenv/lib/python3.8/site-packages/setuptools/dist.py", line 716, in fetch_build_eggs
+        resolved_dists = pkg_resources.working_set.resolve(
+      File "/home/maha.hanif/ass2/myenv/lib/python3.8/site-packages/pkg_resources/__init__.py", line 780, in resolve
+        dist = best[req.key] = env.best_match(
+      File "/home/maha.hanif/ass2/myenv/lib/python3.8/site-packages/pkg_resources/__init__.py", line 1065, in best_match
+        return self.obtain(req, installer)
+      File "/home/maha.hanif/ass2/myenv/lib/python3.8/site-packages/pkg_resources/__init__.py", line 1077, in obtain
+        return installer(requirement)
+      File "/home/maha.hanif/ass2/myenv/lib/python3.8/site-packages/setuptools/dist.py", line 786, in fetch_build_egg
+        return cmd.easy_install(req)
+      File "/home/maha.hanif/ass2/myenv/lib/python3.8/site-packages/setuptools/command/easy_install.py", line 679, in easy_install
+        return self.install_item(spec, dist.location, tmpdir, deps)
+      File "/home/maha.hanif/ass2/myenv/lib/python3.8/site-packages/setuptools/command/easy_install.py", line 705, in install_item
+        dists = self.install_eggs(spec, download, tmpdir)
+      File "/home/maha.hanif/ass2/myenv/lib/python3.8/site-packages/setuptools/command/easy_install.py", line 890, in install_eggs
+        return self.build_and_install(setup_script, setup_base)
+      File "/home/maha.hanif/ass2/myenv/lib/python3.8/site-packages/setuptools/command/easy_install.py", line 1158, in build_and_install
+        self.run_setup(setup_script, setup_base, args)
+      File "/home/maha.hanif/ass2/myenv/lib/python3.8/site-packages/setuptools/command/easy_install.py", line 1144, in run_setup
+        run_setup(setup_script, args)
+      File "/home/maha.hanif/ass2/myenv/lib/python3.8/site-packages/setuptools/sandbox.py", line 253, in run_setup
+        raise
+      File "/home/team1337/.local/easybuild_new/software/Python/3.8.2-GCCcore-9.3.0/lib/python3.8/contextlib.py", line 131, in __exit__
+        self.gen.throw(type, value, traceback)
+      File "/home/maha.hanif/ass2/myenv/lib/python3.8/site-packages/setuptools/sandbox.py", line 195, in setup_context
+        yield
+      File "/home/team1337/.local/easybuild_new/software/Python/3.8.2-GCCcore-9.3.0/lib/python3.8/contextlib.py", line 131, in __exit__
+        self.gen.throw(type, value, traceback)
+      File "/home/maha.hanif/ass2/myenv/lib/python3.8/site-packages/setuptools/sandbox.py", line 166, in save_modules
+        saved_exc.resume()
+      File "/home/maha.hanif/ass2/myenv/lib/python3.8/site-packages/setuptools/sandbox.py", line 141, in resume
+        six.reraise(type, exc, self._tb)
+      File "/home/maha.hanif/ass2/myenv/lib/python3.8/site-packages/setuptools/_vendor/six.py", line 685, in reraise
+        raise value.with_traceback(tb)
+      File "/home/maha.hanif/ass2/myenv/lib/python3.8/site-packages/setuptools/sandbox.py", line 154, in save_modules
+        yield saved
+      File "/home/maha.hanif/ass2/myenv/lib/python3.8/site-packages/setuptools/sandbox.py", line 195, in setup_context
+        yield
+      File "/home/maha.hanif/ass2/myenv/lib/python3.8/site-packages/setuptools/sandbox.py", line 250, in run_setup
+        _execfile(setup_script, ns)
+      File "/home/maha.hanif/ass2/myenv/lib/python3.8/site-packages/setuptools/sandbox.py", line 45, in _execfile
+        exec(code, globals, locals)
+      File "/tmp/easy_install-ajgzbm2f/numpy-1.26.2/setup.py", line 22, in <module>
+        min_python_version = "3.8"
+    RuntimeError: Python version >= 3.9 required.
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 23.3.1 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
